@@ -49,7 +49,7 @@ function start() {
                 type: 'checkbox',
                 message: 'What licenses were used?',
                 name: 'license',
-                choices: ['Apache License 2.0', 'GNU GPLv3', 'ISC License', 'MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)'],
+                choices: ['Apache License 2.0', 'GNU GPLv3', 'ISC License', 'MIT License'],
             },            
 
         ])
@@ -62,32 +62,22 @@ function start() {
 
 
 function writeInfo(data) {
-    switch (data.license) {
-      case "Apache License 2.0":
-        licenseImage =
-          "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-        break;
-      case "GNU GPLv3":
-        licenseImage =
-          "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-        break;
-      case "ISC License":
-        licenseImage =
-          "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
-        break;
-      case "MIT License":
-        licenseImage =
-          "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-        break;
-      default:
-        break;
-        
-    } 
+    const urlIMG = data.license;
+    if (urlIMG === "Apache License 2.0") {
+        licenseImg = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    } else if (urlIMG === "GNU GPLv3") {
+        licenseImg = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    } else if (urlIMG === "ISC License") {
+        licenseImg = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+    } else { 
+        licenseImg = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    }
 
-    console.log(data.license);
+    console.log(licenseImg);
+
     const redmeFile = `
 # ${data.title}
-${data.license}
+${licenseImg}
 ## Desription
  ${data.info}
 
