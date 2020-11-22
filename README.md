@@ -1,8 +1,8 @@
 
-# readme
+# readme_generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Desription
- sdf
+    readme generator
 
 ## Table of Contents
  - [Installation](#installation)
@@ -13,15 +13,15 @@
  - [Questions](#questions)
 
 ## Installation
-sdf    
+    answer questions    
 ## Usage
-sdf
+    prompts
 ## License
-MIT License
+    MIT License
 ## Contributing
-sdf
+    i did. and the internet
 ## Tests
-sdf
+    extensive
 ## Questions
-[GitHub Repo](https://github.com/sdf/readme)
-#### sdf
+    [GitHub Repo](https://github.com/njleoni/readme_generator)
+    #### nicholas.leoni@gmail.com

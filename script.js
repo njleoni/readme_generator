@@ -79,7 +79,7 @@ function writeInfo(data) {
 # ${data.title}
 ${licenseImg}
 ## Desription
- ${data.info}
+    ${data.info}
 
 ## Table of Contents
  - [Installation](#installation)
@@ -90,18 +90,18 @@ ${licenseImg}
  - [Questions](#questions)
 
 ## Installation
-${data.install}    
+    ${data.install}    
 ## Usage
-${data.usage}
+    ${data.usage}
 ## License
-${data.license}
+    ${data.license}
 ## Contributing
-${data.contribute}
+    ${data.contribute}
 ## Tests
-${data.test}
+    ${data.test}
 ## Questions
-[GitHub Repo](https://github.com/${data.gitUser}/${data.title})
-#### ${data.email}
+    [GitHub Repo](https://github.com/${data.gitUser}/${data.title})
+    #### ${data.email}
 `;
 
     fs.writeFile('README.md', redmeFile, (err) =>
