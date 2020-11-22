@@ -13,15 +13,15 @@
  - [Questions](#questions)
 
 ## Installation
-    answer questions    
+    answer prompts    
 ## Usage
-    prompts
+    by answering questions
 ## License
     MIT License
 ## Contributing
-    i did. and the internet
+    the internets
 ## Tests
-    extensive
+    many
 ## Questions
-    [GitHub Repo](https://github.com/njleoni/readme_generator)
-    #### nicholas.leoni@gmail.com
+[GitHub Repo](https://github.com/njleoni/readme_generator)
+#### nicholas.leoni@gmail.com

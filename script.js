@@ -100,8 +100,8 @@ ${licenseImg}
 ## Tests
     ${data.test}
 ## Questions
-    [GitHub Repo](https://github.com/${data.gitUser}/${data.title})
-    #### ${data.email}
+[GitHub Repo](https://github.com/${data.gitUser}/${data.title})
+#### ${data.email}
 `;
 
     fs.writeFile('README.md', redmeFile, (err) =>
