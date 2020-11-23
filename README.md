@@ -13,9 +13,9 @@
  - [Questions](#questions)
 
 ## Installation
-    ensure npm inquirer is installed    
+    ensure npm inquirer is installed      
 ## Usage
-    answerign questions in the command prompt
+    answering questions in the command prompt
 ## License
     MIT License
 ## Contributing
@@ -24,6 +24,7 @@
     multiple command line tests
 ## Questions
 [GitHub Repo Link](https://github.com/njleoni/readme_generator)
+[Screencastify Link](https://drive.google.com/file/d/1OGCGkxQykXynQv58nLxzmi8psXL6SL2q/view)
 #### If you have any additional questions, please contact me at nicholas.leoni@gmail.com
 
 ## Screenshot
