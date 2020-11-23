@@ -97,12 +97,12 @@ ${licenseImg}
 ## Tests
     ${data.test}
 ## Questions
-[GitHub Repo Link](https://github.com/${data.gitUser}/${data.title})
+[GitHub Repo Link](https://github.com/${data.gitUser}/${data.title})\
 [Screencastify Link](https://drive.google.com/file/d/1OGCGkxQykXynQv58nLxzmi8psXL6SL2q/view)
 #### If you have any additional questions, please contact me at ${data.email}
 
 ## Screenshot
-![Screenshot](./assets/img/command_prompts.PNG)
+![Screenshot](./assets/img/command_prompts.PNG)\
 ![Screenshot](./assets/img/readme.PNG)
 
 `;
