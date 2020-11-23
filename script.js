@@ -12,16 +12,6 @@ function start() {
             },    
             {
                 type: 'input',
-                message: 'What is your GitHub user name?',
-                name: 'gitUser',
-            },
-            {
-                type: 'input',
-                message: 'What is your email address?',
-                name: 'email',
-            },
-            {
-                type: 'input',
                 message: 'Give me a short description of your project?',
                 name: 'info',
             },
@@ -51,7 +41,16 @@ function start() {
                 name: 'license',
                 choices: ['Apache License 2.0', 'GNU GPLv3', 'ISC License', 'MIT License'],
             },            
-
+            {
+                type: 'input',
+                message: 'What is your GitHub user name?',
+                name: 'gitUser',
+            },
+            {
+                type: 'input',
+                message: 'What is your email address?',
+                name: 'email',
+            },
         ])
     
         .then((data) => {
@@ -73,8 +72,6 @@ function writeInfo(data) {
         licenseImg = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     }
 
-    console.log(licenseImg);
-
     const redmeFile = `
 # ${data.title}
 ${licenseImg}
@@ -85,7 +82,7 @@ ${licenseImg}
  - [Installation](#installation)
  - [Usage](#usage)
  - [License](#license)
- - [Contribute](#contribute)
+ - [Contributing](#contributing)
  - [Tests](#tests)
  - [Questions](#questions)
 
@@ -100,8 +97,8 @@ ${licenseImg}
 ## Tests
     ${data.test}
 ## Questions
-[GitHub Repo](https://github.com/${data.gitUser}/${data.title})
-#### ${data.email}
+[GitHub Repo Link](https://github.com/${data.gitUser}/${data.title})
+#### If you have any additional questions, please contact me at ${data.email}
 `;
 
     fs.writeFile('README.md', redmeFile, (err) =>

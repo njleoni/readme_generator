@@ -2,26 +2,26 @@
 # readme_generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Desription
-    readme generator
+    readme fiel generator
 
 ## Table of Contents
  - [Installation](#installation)
  - [Usage](#usage)
  - [License](#license)
- - [Contribute](#contribute)
+ - [Contributing](#contributing)
  - [Tests](#tests)
  - [Questions](#questions)
 
 ## Installation
-    answer prompts    
+    npm inquirer is installed    
 ## Usage
-    by answering questions
+    answering command prompt in terminal
 ## License
     MIT License
 ## Contributing
-    the internets
+    Nick Leoni
 ## Tests
-    many
+    running through the command prompts to ensure output is accurate
 ## Questions
-[GitHub Repo](https://github.com/njleoni/readme_generator)
-#### nicholas.leoni@gmail.com
+[GitHub Repo Link](https://github.com/njleoni/readme_generator)
+#### If you have any additional questions, please contact me at nicholas.leoni@gmail.com
