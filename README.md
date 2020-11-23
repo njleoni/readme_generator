@@ -1,8 +1,8 @@
 
-# readme_generator
+# zdc
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Desription
-    readme fiel generator
+    zxc
 
 ## Table of Contents
  - [Installation](#installation)
@@ -13,15 +13,20 @@
  - [Questions](#questions)
 
 ## Installation
-    npm inquirer is installed    
+    zxc    
 ## Usage
-    answering command prompt in terminal
+    zxc
 ## License
     MIT License
 ## Contributing
-    Nick Leoni
+    zxc
 ## Tests
-    running through the command prompts to ensure output is accurate
+    zxc
 ## Questions
-[GitHub Repo Link](https://github.com/njleoni/readme_generator)
-#### If you have any additional questions, please contact me at nicholas.leoni@gmail.com
+[GitHub Repo Link](https://github.com/asd/zdc)
+#### If you have any additional questions, please contact me at zSxc
+
+## Screenshot
+![Screenshot](./assets/img/command_prompts.PNG)
+![Screenshot](./assets/img/readme.PNG)
+

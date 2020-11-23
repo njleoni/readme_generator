@@ -99,6 +99,11 @@ ${licenseImg}
 ## Questions
 [GitHub Repo Link](https://github.com/${data.gitUser}/${data.title})
 #### If you have any additional questions, please contact me at ${data.email}
+
+## Screenshot
+![Screenshot](./assets/img/command_prompts.PNG)
+![Screenshot](./assets/img/readme.PNG)
+
 `;
 
     fs.writeFile('README.md', redmeFile, (err) =>
